@@ -20,7 +20,7 @@ public class Solution {
         return (x >= -2) && (x <= 2) && (y >= 0) && (y <= 4) || (x >= -4) && (x <= 4) && (y >= -3) && (y <= 0);
     }
 
-    public static void printResult(boolean insideSector) {
+    public static void printResult(boolean insideSector) {// один в один разбирали ошибку на занятии, а снова здравствуйте. Зачем тебе if в этом методе?
         if (insideSector == true) {
             System.out.println("true");
         } else {
@@ -28,3 +28,5 @@ public class Solution {
         }
     }
 }
+
+// про чистоту репозитория мы говорили
